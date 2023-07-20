@@ -1,0 +1,11 @@
+{
+    "name": "eslint-plugin-custom-rules",
+    "version": "1.0.0",
+    "description": "Custom rules for ESLint",
+    "main": "index.js",
+    "keywords": ["eslint", "eslint-plugin", "eslint-plugin-custom-rules"],
+    "author": "Paciolan",
+    "devDependencies": {
+      "eslint": "^7.0.0"
+    }
+  }
