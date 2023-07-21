@@ -32,10 +32,10 @@ To disable the rule for a specific line, add the following comment before the li
 
 ```javascript
 // eslint-disable-next-line @fernandotonon/custom-rules/no-commented-out-code
-const name = "John"; // This line will be ignored by the rule
-To disable the rule for a block of code, use the following comments:
+//const name = "John"; // This line will be ignored by the rule
 ```
 
+To disable the rule for a block of code, use the following comments:
 ```javascript
 /* eslint-disable @fernandotonon/custom-rules/no-commented-out-code */
 // const name = "John";
