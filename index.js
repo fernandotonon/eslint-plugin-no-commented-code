@@ -2,9 +2,10 @@
 
 module.exports = {
     rules: {
-      // Import and export your custom rules here
       'no-commented-out-code': require('./lib/rules/no-commented-out-code'),
-      // Add other custom rules if you have them
     },
+    test: {
+        'no-commented-out-code': require('./lib/tests/no-commented-out-code.test'),
+    }
   };
   

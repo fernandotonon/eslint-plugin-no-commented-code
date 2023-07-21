@@ -5,6 +5,7 @@
     "main": "index.js",
     "keywords": ["eslint", "eslint-plugin", "eslint-plugin-custom-rules"],
     "author": "Fernando Tonon",
+    "license": "MIT",
     "devDependencies": {
       "eslint": "^7.0.0"
     }
