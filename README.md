@@ -5,7 +5,7 @@ An ESLint plugin to disallow commented-out code in JavaScript files.
 ## Installation
 
 ```bash
-npm install --save-dev eslint fernandotonon/eslint-plugin-custom-rules
+npm install --save-dev fernandotonon/eslint-plugin-custom-rules
 ```
 
 ## Usage
