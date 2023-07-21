@@ -4,7 +4,7 @@
     "description": "Custom rules for ESLint",
     "main": "index.js",
     "keywords": ["eslint", "eslint-plugin", "eslint-plugin-custom-rules"],
-    "author": "Paciolan",
+    "author": "Fernando Tonon",
     "devDependencies": {
       "eslint": "^7.0.0"
     }
