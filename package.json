@@ -1,10 +1,10 @@
 {
-    "name": "eslint-plugin-custom-rules",
+    "name": "eslint-plugin-no-commented-out-code",
     "version": "1.0.0",
-    "description": "Custom rules for ESLint",
+    "description": "Custom no-commented-out-code ESLint rule for javascript projects",
     "main": "index.js",
-    "keywords": ["eslint", "eslint-plugin", "eslint-plugin-custom-rules"],
-    "author": "Fernando Tonon",
+    "keywords": ["eslint", "eslint-plugin", "eslint-plugin-no-commented-out-code"],
+    "author": "Fernando Tonon de Rossi",
     "license": "MIT",
     "devDependencies": {
       "eslint": "^7.0.0"
