@@ -15,12 +15,9 @@ Once you have installed the plugin, you need to add it to your ESLint configurat
 Create an .eslintrc.yml or .eslintrc.js configuration file in the root of your project (if you haven't already) and extend the plugin and define the rule:
 
 ```yaml
-extends:
-  - "@paciolan/react"
 plugins:
   - "custom-rules"
 rules:
-  react/prop-types: off
   custom-rules/no-commented-out-code: error
 ```
 In this example, we are extending the @paciolan/react configuration (you can use any other configuration you prefer) and enabling the @fernandotonon/custom-rules/no-commented-out-code rule with an error level. The rule will now disallow commented-out code in your JavaScript files and report any instances of commented-out code as an error.
