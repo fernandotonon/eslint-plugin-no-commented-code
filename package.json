@@ -1,9 +1,9 @@
 {
-    "name": "eslint-plugin-no-commented-out-code",
+    "name": "eslint-plugin-no-commented-code",
     "version": "1.0.0",
-    "description": "Custom no-commented-out-code ESLint rule for javascript projects",
+    "description": "Custom no-commented-code ESLint rule for javascript projects",
     "main": "index.js",
-    "keywords": ["eslint", "eslint-plugin", "eslint-plugin-no-commented-out-code"],
+    "keywords": ["eslint", "eslint-plugin", "eslint-plugin-no-commented-code"],
     "author": "Fernando Tonon de Rossi",
     "license": "MIT",
     "devDependencies": {

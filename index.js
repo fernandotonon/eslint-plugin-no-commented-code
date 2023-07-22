@@ -2,10 +2,10 @@
 
 module.exports = {
     rules: {
-      'no-commented-out-code': require('./lib/rules/no-commented-out-code'),
+      'no-commente-code': require('./lib/rules/no-commented-code'),
     },
     test: {
-        'no-commented-out-code': require('./lib/tests/no-commented-out-code.test'),
+        'no-commented-code': require('./lib/tests/no-commented-code.test'),
     }
   };
   
