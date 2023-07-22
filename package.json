@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-commented-code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom no-commented-code ESLint rule for javascript projects",
   "main": "index.js",
   "repository": {
