@@ -12,7 +12,7 @@ npm install --save-dev eslint-plugin-no-commented-code
 Once you have installed the plugin, you need to add it to your ESLint configuration.
 
 ## Configuration
-Create an .eslintrc.yml or .eslintrc.js configuration file in the root of your project (if you haven't already) and extend the plugin and define the rule:
+Create an `.eslintrc.yml` or `.eslintrc.js` configuration file in the root of your project (if you haven't already) and extend the plugin and define the rule:
 
 ```yaml
 plugins:
