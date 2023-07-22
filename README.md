@@ -5,7 +5,7 @@ An ESLint plugin to disallow commented-out code in JavaScript files.
 ## Installation
 
 ```bash
-npm install --save-dev eslint-plugin-no-commented-code
+npm install eslint eslint-plugin-no-commented-code --save-dev
 ```
 
 ## Usage
