@@ -3,6 +3,10 @@
   "version": "1.0.2",
   "description": "Custom no-commented-code ESLint rule for javascript projects",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fernandotonon/eslint-plugin-no-commented-code.git"
+  },
   "keywords": [
     "eslint",
     "eslint-plugin",
