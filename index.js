@@ -2,7 +2,7 @@
 
 module.exports = {
     rules: {
-      'no-commente-code': require('./lib/rules/no-commented-code'),
+      'no-commented-code': require('./lib/rules/no-commented-code'),
     },
   };
   
