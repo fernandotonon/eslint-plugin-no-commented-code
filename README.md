@@ -20,7 +20,6 @@ plugins:
 rules:
   no-commented-code/no-commented-code: error
 ```
-In this example, we are extending the @paciolan/react configuration (you can use any other configuration you prefer) and enabling the @fernandotonon/custom-rules/no-commented-code rule with an error level. The rule will now disallow commented-out code in your JavaScript files and report any instances of commented-out code as an error.
 
 ## Use Cases
 
