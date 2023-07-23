@@ -21,6 +21,19 @@ rules:
   no-commented-code/no-commented-code: error
 ```
 
+The rule setting can be adjusted according to your needs. Possible configurations are:
+
+"off" or 0 - turn the rule off
+"warn" or 1 - turn the rule on as a warning (doesn't affect exit code)
+"error" or 2 - turn the rule on as an error (exit code is 1 when triggered)
+
+Example of turning the rule a warning instead of an error:
+
+```yaml
+rules:
+  no-commented-code/no-commented-code: warn
+```
+
 ## Use Cases
 
 ### Valid
@@ -39,7 +52,16 @@ const obj = { key: "value" };
 const arr = [1, 2, 3];
 console.log("Logging something");
 // This is a valid comment
-/* eslint-disable */\n// Some code\n/* eslint-enable */
+/*
+    The code should return something like this:
+    "Hello World"
+*/
+/* eslint-disable */ 
+// import { add } from './test.js';
+// const name = "John";
+/* const age = 30; */
+// if (condition) { /* do something */ }
+/* eslint-enable */
 ```
 
 ### Invalid
@@ -47,6 +69,7 @@ console.log("Logging something");
 The following test cases represent invalid code that should trigger the rule:
 
 ```javascript
+// import { add } from './test.js';
 // const name = "John";
 /* const age = 30; */
 // if (condition) { /* do something */ }
@@ -56,6 +79,7 @@ The following test cases represent invalid code that should trigger the rule:
 // { key: "value" };
 // [1, 2, 3];
 // console.log("Debugging");
+// expect(result).toBe(5);
 ```
 
 ## Disabling the Rule
@@ -70,10 +94,10 @@ To disable the rule for a specific line, add the following comment before the li
 
 To disable the rule for a block of code, use the following comments:
 ```javascript
-/* eslint-disable no-commented-code/no-commented-code */
+/* eslint-disable */
 // const name = "John";
 // const age = 30;
-/* eslint-enable no-commented-code/no-commented-code */
+/* eslint-enable */
 ```
 
 The code within the block will be ignored by the rule. However, use these directives with caution and only when necessary, as it's generally best to avoid commented-out code and keep your codebase clean and maintainable.
