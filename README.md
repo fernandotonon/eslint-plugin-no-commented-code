@@ -1,5 +1,8 @@
 # ESLint Plugin - eslint-plugin-no-commented-code
 
+[![npm Module](https://badge.fury.io/js/eslint-plugin-no-commented-code.svg)](https://www.npmjs.org/package/eslint-plugin-no-commented-code)
+
+## Overview
 An ESLint plugin to disallow commented-out code in JavaScript files.
 
 ## Installation
@@ -12,8 +15,9 @@ npm install eslint eslint-plugin-no-commented-code --save-dev
 Once you have installed the plugin, you need to add it to your ESLint configuration.
 
 ## Configuration
-Create an `.eslintrc.yml` or `.eslintrc.js` configuration file in the root of your project (if you haven't already) and extend the plugin and define the rule:
+Create an `.eslintrc.yml` or `.eslintrc.json` configuration file in the root of your project (if you haven't already) and extend the plugin and define the rule:
 
+### `.eslintrc.yml`
 ```yaml
 plugins:
   - "no-commented-code"
@@ -23,9 +27,9 @@ rules:
 
 The rule setting can be adjusted according to your needs. Possible configurations are:
 
-"off" or 0 - turn the rule off
-"warn" or 1 - turn the rule on as a warning (doesn't affect exit code)
-"error" or 2 - turn the rule on as an error (exit code is 1 when triggered)
+- "off" or 0 - turn the rule off
+- "warn" or 1 - turn the rule on as a warning (doesn't affect exit code)
+- "error" or 2 - turn the rule on as an error (exit code is 1 when triggered)
 
 Example of turning the rule a warning instead of an error:
 
