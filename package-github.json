@@ -1,11 +1,14 @@
 {
-  "name": "eslint-plugin-no-commented-code",
+  "name": "@fernandotonon/eslint-plugin-no-commented-code",
   "version": "1.0.10",
   "description": "Custom no-commented-code ESLint rule for javascript projects",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/fernandotonon/eslint-plugin-no-commented-code.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "publish:npm": "mv package-npm.json package.json && npm publish",
