@@ -5,6 +5,16 @@
 ## Overview
 An ESLint plugin to disallow commented-out code in JavaScript files.
 
+The rule will trigger an error if it finds any commented-out code in your JavaScript files. This includes single-line comments, multi-line comments, and commented-out code within a block of code.
+
+It focuses on avoiding false positives, so it may not catch all instances of commented-out code. However, it should be able to catch most instances of commented-out code in your codebase.
+
+## Motivation
+
+Commented-out code is a common problem in many codebases. It can be a sign of poor code quality and can make your codebase difficult to maintain. It can also make it difficult to debug your code, as it can be hard to tell which lines of code are active and which are not.
+
+Commented-out code can also be a security risk, as it can contain sensitive information such as passwords or API keys. 
+
 ## Installation
 
 ```bash

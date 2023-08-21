@@ -8,8 +8,8 @@
     "url": "https://github.com/fernandotonon/eslint-plugin-no-commented-code.git"
   },
   "scripts": {
-    "publish:npm": "mv package-npm.json package.json && npm publish",
-    "publish:github": "mv package-github.json package.json && npm publish"
+    "publish:npm": "cp package-npm.json package.json && npm publish",
+    "publish:github": "cp package-github.json package.json && npm publish"
   },  
   "keywords": [
     "eslint",
